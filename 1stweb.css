@@ -1,0 +1,38 @@
+body{
+	background-image: url('nature.jpeg');
+	background-repeat: no-repeat;
+	background-size: height 100% width 100%;
+	background-position: center;
+	backface-visibility: 100%;
+}
+
+.dp{
+	border-radius: 225px;
+	float: left;
+	padding: 20px;
+}
+span{
+	font-size: 44px;
+	font-family: cursive;
+	border-style: double;
+	padding: 90px;
+	background-color: rgb(128,128,128,0.2);
+}
+.float{
+	float: right;
+	padding: 70px;
+	margin-top: 30px;
+}
+button{
+	font-family: cherry;
+	font-size: 20px;
+	background-color: rgba(243,255,152);
+	float: top;
+	border-radius: 30px;
+	margin: 10px;
+	position: relative;
+	box-shadow: 10px;
+}
+header{
+	float: right;
+}

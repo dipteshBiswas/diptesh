@@ -1,0 +1,26 @@
+body{
+	font-size: 30px;
+	font-family: serif;
+	background:url('nature.jpeg');
+	background-position: center;
+	backface-visibility: visible;
+	background-origin: content-box;
+}
+
+
+button{
+	font-family: cherry;
+	font-size: 20px;
+	background-color: rgba(243,255,152);
+	float: top;
+	border-radius: 30px;
+	margin: 10px;
+	position: relative;
+	box-shadow: 10px;
+}
+header{
+	float: right;
+}
+ul{
+	float: bottom;
+}

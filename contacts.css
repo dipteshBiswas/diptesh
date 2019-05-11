@@ -1,0 +1,39 @@
+ul{
+	border-style: double;
+	border-width: 10px;
+	border-radius: 30px;
+	padding: 30px;
+	font-family: cursive;
+	font-size: 20px;
+	font-feature-settings: inherit;
+	background-color: rgba(192,192,192,0.87);
+	margin-right: 30px;
+	margin-top: 80px;
+	margin-left: 17px;
+}
+
+body{
+	background-image: url('IMG-3.jpg');
+	background-position: center;
+	font-family: cherry;
+	font-size: 20px;
+	background-color: rgba(243,255,152);
+	float: top;
+	border-radius: 30px;
+	margin: 10px;
+	position: relative;
+	box-shadow: 10px;
+}
+header{
+	float: right;
+}
+button{
+	font-family: cherry;
+	font-size: 20px;
+	background-color: rgba(243,255,152);
+	float: top;
+	border-radius: 30px;
+	margin: 10px;
+	position: relative;
+	box-shadow: 10px;
+}
