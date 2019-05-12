@@ -1,0 +1,65 @@
+.contacts{
+	background-color: white;
+	padding: 50px;
+	margin-top: 90px;
+	opacity: 0.85;
+	float: right;
+	font-family: cursive;
+	font-weight: 30px;
+	font-size: 30px;
+	margin-right: 0px;
+	color: rgb(225,113,74);
+	border-style: double;
+	border-radius: 40px;
+	border-width: 5px;
+}
+
+body{
+	background-image: url('IMG-3.jpg');
+	background-size: cover;
+	background-position: center;
+	backface-visibility: 100%;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	background-color: rgba(243,255,152);
+	float: top;
+	border-radius: 30px;
+	margin: 10px;
+	position: relative;
+	box-shadow: 10px;
+}
+header{
+	float: top;
+}
+nav ul li{
+	list-style-type: none;
+	float: top;
+	width: 217px;
+	height: 38px;
+	background-color: white;
+	opacity: 0.9;
+	line-height: 40px;
+	text-align: center;
+	font-size: 30px;
+	font-family: gabriola;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	display: circle;
+	transition: 1.8s ease-in-out;
+	border-radius: 20px;
+}
+nav ul li a:hover{
+	background-color: rgba(255,0,0,0.37);
+	transition: ease-in-out;
+	transition-timing-function: 100ms;
+}
+nav ul li a:visited{
+	color: red;
+}
+nav ul li a:active{
+	color: green;
+}

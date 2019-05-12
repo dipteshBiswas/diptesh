@@ -1,0 +1,54 @@
+body{
+	background-image: url('IMG_20181214_114722514.jpg');
+	background-size: cover;
+	background-position: center;
+	backface-visibility: 100%;
+	background-repeat: no-repeat
+
+}
+p{
+	font-size: 40px;
+	font-family: "system"; 
+	font-style: inherit;
+	color: black;
+	padding: 70px;
+	background-color: rgba(243,255,152,0.45);
+	margin-left: 0px;
+	margin-top: 150px;
+}
+
+nav ul li{
+	list-style-type: none;
+	float: right;
+	width: 217px;
+	height: 38px;
+	background-color: white;
+	opacity: 0.9;
+	line-height: 40px;
+	text-align: center;
+	font-size: 30px;
+	font-family: gabriola;
+	margin-right: 10px;
+	margin-top: 8px;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	display: circle;
+	transition: 1s ease-in-out;
+	border-radius: 20px;
+}
+nav ul li a:hover{
+	background-color: rgba(255,0,0,0.37);
+	transition: ease-in-out;
+	transition-timing-function: 100ms;
+}
+nav ul li a:visited{
+	color: red;
+}
+nav ul li a:active{
+	color: green;
+}
+header{
+	float: right;
+}
